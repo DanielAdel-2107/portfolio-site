@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/elite-car/"
+title = "Elite Car Care"
+description = "A premium landing page for the Elite Car Care Flutter app, with app highlights, screenshots, download guidance, and responsive device-aware messaging."
+version = "1.0.0"
+id = "artifacts/elite-car"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/elite-car/" ]
+localPort = 19564
+
+[services.development]
+run = "pnpm --filter @workspace/elite-car run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/elite-car", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/elite-car/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19564"
+BASE_PATH = "/elite-car/"

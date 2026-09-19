@@ -1,0 +1,12 @@
+node_modules
+.cache
+.local
+.upm
+.config
+.agents
+.pythonlibs
+.replit
+replit.nix
+dist
+*.zip
+*.tar.gz

@@ -1,0 +1,235 @@
+You are a Senior Frontend Engineer, UI/UX Designer, and Landing Page Expert.
+
+Build a premium, modern, responsive landing page for my Flutter application called "Elite Car".
+
+The purpose of this page is to let customers scan a QR code and download the Android APK directly.
+
+I will provide:
+- App logo
+- Screenshots
+- APK file
+
+========================================
+Design Requirements
+========================================
+
+Create a premium, clean, elegant design that looks like a real SaaS product website.
+
+The style should feel similar to:
+- Apple
+- Stripe
+- Linear
+- Notion
+- Modern Google products
+
+Use:
+- Large typography
+- Glassmorphism
+- Soft shadows
+- Smooth gradients
+- Rounded cards
+- Professional spacing
+- Beautiful hover effects
+- Smooth animations
+- Mobile First
+- Responsive Design
+
+Do NOT create a cheap looking template.
+
+========================================
+Sections
+========================================
+
+1. Hero Section
+
+- App Logo
+- App Name (Elite Car)
+- Short description
+- Primary button:
+    Download for Android
+- Secondary button:
+    View Features
+
+Display one screenshot beside the hero.
+
+========================================
+
+2. Screenshots Section
+
+Beautiful carousel.
+
+Allow swipe on mobile.
+
+Allow previous/next buttons.
+
+Clicking a screenshot opens it in a fullscreen modal.
+
+========================================
+
+3. Features Section
+
+Display feature cards with icons.
+
+Example features:
+
+• Book Car Wash
+• Track Booking
+• Multiple Services
+• Secure Login
+• Fast Performance
+• Easy Navigation
+
+Use animated cards.
+
+========================================
+
+4. Why Choose Elite Car
+
+Timeline or cards explaining benefits.
+
+========================================
+
+5. Download Section
+
+Large highlighted section.
+
+Show:
+
+Current Version
+
+Android APK
+
+File Size (placeholder)
+
+Compatibility
+
+Large Download Button
+
+The download button MUST download:
+
+app-release.apk
+
+Do NOT use any external links.
+
+========================================
+
+6. FAQ
+
+Example:
+
+How do I install the app?
+
+Is it free?
+
+Do I need Google Play?
+
+Why does Android ask for Unknown Sources?
+
+========================================
+
+7. Footer
+
+Copyright
+
+Elite Car
+
+Social placeholders
+
+========================================
+Technical Requirements
+========================================
+
+Use:
+
+HTML5
+
+CSS3
+
+Vanilla JavaScript only
+
+Do NOT use React.
+
+Do NOT use Angular.
+
+Do NOT use Vue.
+
+Do NOT use Bootstrap.
+
+Everything should be lightweight.
+
+========================================
+Animations
+========================================
+
+Fade In
+
+Slide Up
+
+Scroll Reveal
+
+Button Hover
+
+Card Hover
+
+Image Zoom
+
+Smooth Scrolling
+
+Sticky Navbar
+
+========================================
+Performance
+========================================
+
+Optimize all images.
+
+Lazy load screenshots.
+
+Fast loading.
+
+SEO friendly.
+
+Accessible.
+
+========================================
+Folder Structure
+========================================
+
+/
+│
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│      logo.png
+│      screenshot1.png
+│      screenshot2.png
+│      screenshot3.png
+│      screenshot4.png
+│      app-release.apk
+
+========================================
+Extra
+========================================
+
+Detect if the visitor is using Android.
+
+If Android:
+Show Download APK button.
+
+If iPhone:
+Show a friendly message:
+"iOS version will be available soon."
+
+If Desktop:
+Show a message encouraging the user to scan the QR code or download the APK directly.
+
+Add a loading animation.
+
+Add a dark/light mode toggle.
+
+Use smooth transitions everywhere.
+
+Everything must look production-ready.
+
+Generate clean, maintainable code with comments.
